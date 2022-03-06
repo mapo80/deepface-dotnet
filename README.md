@@ -11,7 +11,7 @@ I've used **Python.Included** and **Pythonet**, here you can find all the inform
 
 I only implemented DeepFace's **verify** method, it would be interesting to bind the other methods as well.
 
-To use class just do:
+To use it just do:
 
     var serviceProvider = new ServiceCollection()
         .AddSingleton<IDeepFace, DeepFace.Bindings.DeepFace>()
