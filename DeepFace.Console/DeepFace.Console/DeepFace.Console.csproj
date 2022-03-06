@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="photos\a.jpg" />
+    <None Remove="photos\b.jpg" />
+    <None Remove="photos\c.jpg" />
+    <None Remove="photos\d.jpg" />
+    <None Remove="photos\e.jpg" />
+    <None Remove="photos\f.jpg" />
+    <None Remove="photos\g.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="photos\a.jpg" />
+    <EmbeddedResource Include="photos\b.jpg" />
+    <EmbeddedResource Include="photos\c.jpg" />
+    <EmbeddedResource Include="photos\d.jpg" />
+    <EmbeddedResource Include="photos\e.jpg" />
+    <EmbeddedResource Include="photos\f.jpg" />
+    <EmbeddedResource Include="photos\g.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DeepFace.Bindings\DeepFace.Bindings.csproj" />
+  </ItemGroup>
+
+</Project>
