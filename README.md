@@ -1,6 +1,6 @@
 # .Net Bindings for DeepFace
 
-In this period I am becoming interested in facerecognition.
+In this period I am interested in facerecognition.
 I found this interesting framework on Github and I wanted to make the binding for .Net:
 
  - https://github.com/serengil/deepface
